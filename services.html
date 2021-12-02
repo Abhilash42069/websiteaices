@@ -34,6 +34,46 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    .card {
+      flex-direction: row;
+      align-items: center;
+    }
+    .card-title {
+      font-weight: bold;
+    }
+    .card img {
+      width: 30%;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: calc(0.25rem - 1px);
+    }
+    @media only screen and (max-width: 768px) {
+      a {
+        display: none;
+      }
+      .card-body {
+        padding: 0.5em 1.2em;
+      }
+      .card-body .card-text {
+        margin: 0;
+      }
+      .card img {
+        width: 50%;
+      }
+    }
+    @media only screen and (max-width: 1200px) {
+      .card img {
+        width: 40%;
+      }
+    }
+    body {
+      background: url('https://www.teahub.io/photos/full/40-402760_light-color-background-for-website.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+    }
+    </style>
 </head>
 
 <body>
@@ -41,35 +81,57 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-
+      <h1 class="logo me-3"><a href="http://nitrr.ac.in/"><img src = "https://pbs.twimg.com/profile_images/986171794183766016/xMptjXZe_400x400.jpg"></a></h1>
       <h1 class="logo me-auto"><a href="index.html">AICES</a></h1>
+      
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" >Home</a></li>
+          <li><a href="index.html">Home</a></li>
 
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="about.html">About</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="team.html" >Organizing Committee</a></li>
+              <li><a href="adv.html" >Advisory & Technical Committee</a></li>
+              <li><a href="intadv.html" >Internal Advisory & Technical Committee</a></li>
+              <li><a href="external.html">External Advisors</a></li>
+              <li><a href="chair.html">Technical Program Chair (Internal)</a></li>
+              <li><a href="studentchair.html">Student Chair</a></li>
 
              
-               
+            </ul>
+          </li>
+          </li> 
+          <li class="dropdown"><a href="#"><span>Call for Papers</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="services.html">Tracks and Topics</a></li>
+              <li><a href="guide.html">Guidelines For Paper Submission</a></li>
+              <li><a href="pricing.html">Registration</a></li>
+              <li><a href="portfolio.html">Important Dates</a></li>               
               </li>
             </ul>
-          </li> 
-          <li><a href="services.html">Call for Papers</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-
+          </li>
+          <li class="dropdown"><a href="#"><span>Speakers</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="keynote.html">Keynote Speakers</a></li>
+              <li><a href="guestlectures.html">Guest Lectures</a></li>
+              <li><a href="daywisedetails.html">Daywise events</a></li>               
+              </li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Important Dates</a></li>
+          <li><a href="sponsor.html">Sponsors</a></li>
+          <li><a href="award.html">Awards</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="index.html" class="getstarted">Get Started</a></li>
+          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
+      </div>
+      </header><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
@@ -95,131 +157,157 @@
     <!-- End Services Section -->
 
     <!-- ======= Features Section ======= -->
+    
     <section id="features" class="features">
       <div class="container">
-
-        <div class="section-title">
-          
-          <h3>Research articles are invited in the following areas of interest, but not limited to:</h3>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Track 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Track 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Track 3</a>
-              </li>
-              
-            </ul>
+          <h5>Research articles are invited in the following areas of interest, but not limited to:</h5>
+          <div class="card container">
+            <img src="https://static.scientificamerican.com/sciam/cache/file/4593CEFD-A536-4E40-A310EE023E36BA08_source.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Track-I</h5>
+              <p class="card-text">
+                <h3>Intelligent computing in earth and environmental sciences</h3>
+                <p>
+                  <ul>
+                    <li>Geospatial analysis</li>
+                    <li>Environment</li>
+                    <li>Weather and climate forecasting</li>
+                    <li>Atmospheric science</li>
+                    <li>Natural hazards</li> 
+                    <li>Medical Geology</li>
+                    <li>Mineral prospecting and exploration</li>
+                    <li>Hydrogeology</li>
+                  </ul>
+                </p>
+              </p>
+             
+            </div>
           </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Computing Technology</h3>
-                    
-                    <p>
-                      <ul>
-                        <li>Big Data/ Data Mining/ Text Mining/ Time series Mining /Data Informatics</li>
-                        <li>Image Processing/Pattern Recognition/Multimedia</li>
-                        <li>Geographical Information Systems</li>
-                        <li>Machine Learning / Machine Intelligence / Artificial Intelligence</li>
-                        <li>Soft Computing (AI, Neural Networks, Fuzzy)</li>
-                        <li>Internet of Things</li>
-                      </ul>
-                      </p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-1.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Intelligent computing in Biomedical Engineering</h3>
-                    
-                    <p>
-                      <ul>
-                        <li>nCOVID-19 research</li>
-                        <li>Health informatics</li>
-                        <li>Biomedical Signal Processing</li>
-                        <li>Medical Image Processing</li>
-                        <li>Biomedical Instrumentation</li>
-                        <li>Non-Invasive Techniques</li>
-                        <li>Medical Imaging Physics</li>
-                        <li>AI & Machine learning in health</li>
-                        <li>Cognitive Science/Engineering</li>
-                        <li>Brain Computer Interfaces</li>
-                        
-                      </ul>
-                    </p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-2.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Intelligent computing in earth and environmental sciences</h3>
-                   
-                    <p>
-                      <ul>
-                        <li>Geospatial analysis</li>
-                        <li>Environment</li>
-                        <li>Weather and climate forecasting</li>
-                        <li>Atmospheric science</li>
-                        <li>Natural hazards</li> 
-                        <li>Medical Geology</li>
-                        <li>Mineral prospecting and exploration</li>
-                        <li>Hydrogeology</li>
-                      </ul>
-                    </p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-3.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-4.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/features-5.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
+          <br>
+          <div class="card container">
+            <img src="https://www.actian.com/wp-content/uploads/2019/08/ZEN5-A.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Track-II</h5>
+              <p class="card-text">
+                <h4>Computing Technology</h4>
+                <p>
+                  <ul>
+                    <li>Big Data/ Data Mining/ Text Mining/ Time series Mining /Data Informatics</li>
+                    <li>Image Processing/Pattern Recognition/Multimedia</li>
+                    <li>Geographical Information Systems</li>
+                    <li>Machine Learning / Machine Intelligence / Artificial Intelligence</li>
+                    <li>Soft Computing (AI, Neural Networks, Fuzzy)</li>
+                    <li>Internet of Things</li>
+                  </ul>
+                  </p>
+              </p>
+              
+            </div>
+          </div>
+      <br>
+          <div class="card container">
+            <img src="https://www.bolton.ac.uk//assets/Uploads/Biomedical-picture.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Track-III</h5>
+              <p class="card-text">
+                <h3>Intelligent computing in Biomedical Engineering</h3>    
+                <p>
+                  <ul>
+                    <li>nCOVID-19 research</li>
+                    <li>Health informatics</li>
+                    <li>Biomedical Signal Processing</li>
+                    <li>Medical Image Processing</li>
+                    <li>Biomedical Instrumentation</li>
+                    <li>Non-Invasive Techniques</li>
+                    <li>Medical Imaging Physics</li>
+                    <li>AI & Machine learning in health</li>
+                    <li>Cognitive Science/Engineering</li>
+                    <li>Brain Computer Interfaces</li>
+                  </ul>
+                </p>
+              </p>
+              
             </div>
           </div>
         </div>
-
-      </div>
-    </section><!-- End Features Section -->
+        <br>
+          <div class="container">
+          <h4>The papers must be submitted via Easy Chair using the following link:</h5>
+          <h5><center><a href="https://easychair.org/conferences/?conf=aices2022"><button type="button" class="btn btn-lg btn-primary">Submit My Paper</button></a></center></h5>
+        </div> 
+        </section> 
+      <!--  <section class="breadcrumbs">
+          <div class="container">
+            <h3><b>Track-I</b></h3>
+            <div class="d-lg-flex justify-content-between align-items-center">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h4>Computing Technology</h4>
+                <p>
+                  <ul>
+                    <li>Big Data/ Data Mining/ Text Mining/ Time series Mining /Data Informatics</li>
+                    <li>Image Processing/Pattern Recognition/Multimedia</li>
+                    <li>Geographical Information Systems</li>
+                    <li>Machine Learning / Machine Intelligence / Artificial Intelligence</li>
+                    <li>Soft Computing (AI, Neural Networks, Fuzzy)</li>
+                    <li>Internet of Things</li>
+                  </ul>
+                  </p>
+                </div>  
+            </div>
+          </div>
+        </section>
+        <section class="breadcrumbs">
+          <div class="container">
+            <h3><b>Track-II</b></h3>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Intelligent computing in Biomedical Engineering</h3>
+                    
+                <p>
+                  <ul>
+                    <li>nCOVID-19 research</li>
+                    <li>Health informatics</li>
+                    <li>Biomedical Signal Processing</li>
+                    <li>Medical Image Processing</li>
+                    <li>Biomedical Instrumentation</li>
+                    <li>Non-Invasive Techniques</li>
+                    <li>Medical Imaging Physics</li>
+                    <li>AI & Machine learning in health</li>
+                    <li>Cognitive Science/Engineering</li>
+                    <li>Brain Computer Interfaces</li>
+                    
+                  </ul>
+                </p>
+                </div>  
+            </div>
+          </div>
+        </section>
+        
+        <section class="breadcrumbs">
+          <div class="container">
+            <h3><b>Track-III</b></h3>
+            <div class="d-flex justify-content-between align-items-center"> 
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Intelligent computing in earth and environmental sciences</h3>
+                <p>
+                  <ul>
+                    <li>Geospatial analysis</li>
+                    <li>Environment</li>
+                    <li>Weather and climate forecasting</li>
+                    <li>Atmospheric science</li>
+                    <li>Natural hazards</li> 
+                    <li>Medical Geology</li>
+                    <li>Mineral prospecting and exploration</li>
+                    <li>Hydrogeology</li>
+                  </ul>
+                </p>
+ 
+                </div>  
+            </div>
+          </div>
+        </section>
+        
+    </section> End Features Section -->
 
   </main><!-- End #main -->
 

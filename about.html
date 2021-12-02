@@ -5,14 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>About - Sailor Bootstrap Template</title>
+  <title>AICES 2022</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -37,39 +38,168 @@
 </head>
 
 <body>
+  <style>
+    .card {
+      flex-direction: row;
+      align-items: center;
+    }
+    .card-title {
+      font-weight: bold;
+    }
+    .card img {
+      width: 30%;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: calc(0.25rem - 1px);
+    }
+    @media only screen and (max-width: 768px) {
+      a {
+        display: none;
+      }
+      .card-body {
+        padding: 0.5em 1.2em;
+      }
+      .card-body .card-text {
+        margin: 0;
+      }
+      .card img {
+        width: 50%;
+      }
+    }
+    @media only screen and (max-width: 1200px) {
+      .card img {
+        width: 40%;
+      }
+    }
+    body {
+      background: url('https://www.teahub.io/photos/full/40-402760_light-color-background-for-website.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+    }
+    </style>
+  <!--hero section-->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-5.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown"><span>About Us</span></h2>
+              <p class="animate__animated animate__fadeInUp">NIT Raipur is situated in the capital of Chhattisgarh, has proven to be "avant-grade' in the field of science and technology over past few decades in this region. With sweet memory of foundation ceremony by President Hon'ble Dr. Rajendra Prasad on 14th September 1956, the institute started with two departments namely Metallurgical and Mining Engineering.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-4.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown"><span>About Us</span></h2>
+              <p class="animate__animated animate__fadeInUp">NIT Raipur is situated in the capital of Chhattisgarh, has proven to be "avant-grade' in the field of science and technology over past few decades in this region. With sweet memory of foundation ceremony by President Hon'ble Dr. Rajendra Prasad on 14th September 1956, the institute started with two departments namely Metallurgical and Mining Engineering.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        
+        </style>
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-7.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown"><span>About Us</span></h2>
+              <p class="animate__animated animate__fadeInUp">NIT Raipur is situated in the capital of Chhattisgarh, has proven to be "avant-grade' in the field of science and technology over past few decades in this region. With sweet memory of foundation ceremony by President Hon'ble Dr. Rajendra Prasad on 14th September 1956, the institute started with two departments namely Metallurgical and Mining Engineering.</p>
+             
+              
+              
+              <div class="col-sm-4 follow ">
+                <ul class="social">
+                    <li>
+                        
+                    
+                        
+                    </li>
+                </ul>
+            </div>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-
+      <h1 class="logo me-3"><a href="http://nitrr.ac.in/"><img src = "https://pbs.twimg.com/profile_images/986171794183766016/xMptjXZe_400x400.jpg"></a></h1>
       <h1 class="logo me-auto"><a href="index.html">AICES</a></h1>
+      
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" >Home</a></li>
+          <li><a href="index.html">Home</a></li>
 
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="about.html">About</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="team.html" >Organizing Committee</a></li>
+              <li><a href="adv.html" >Advisory & Technical Committee</a></li>
+              <li><a href="intadv.html" >Internal Advisory & Technical Committee</a></li>
+              <li><a href="external.html">External Advisors</a></li>
+              <li><a href="chair.html">Technical Program Chair (Internal)</a></li>
+              <li><a href="studentchair.html">Student Chair</a></li>
 
              
-               
+            </ul>
+          </li>
+          </li> 
+          <li class="dropdown"><a href="#"><span>Call for Papers</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="services.html">Tracks and Topics</a></li>
+              <li><a href="guide.html">Guidelines For Paper Submission</a></li>
+              <li><a href="pricing.html">Registration</a></li>
+              <li><a href="portfolio.html">Important Dates</a></li>               
               </li>
             </ul>
-          </li> 
-          <li><a href="services.html">Call for Papers</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-
+          </li>
+          <li class="dropdown"><a href="#"><span>Speakers</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="keynote.html">Keynote Speakers</a></li>
+              <li><a href="guestlectures.html">Guest Lectures</a></li>
+              <li><a href="daywisedetails.html">Daywise events</a></li>               
+              </li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Important Dates</a></li>
+          <li><a href="sponsor.html">Sponsors</a></li>
+          <li><a href="award.html">Awards</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="index.html" class="getstarted">Get Started</a></li>
+          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
+      </div>
+      </header><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
@@ -97,8 +227,8 @@
 
         <div class="row content">
           <div class="col-lg-6">
-            <h2>National Institute of Technology</h2>
-            <h3>Raipur</h3>
+            <h3><u><a href="http://www.nitrr.ac.in/">National Institute of Technology, Raipur</a></u></h3>
+            
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
@@ -110,6 +240,63 @@
 
       </div>
     </section><!-- End About Section -->
+
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+            
+            <h3><u><a href="http://www.nitrr.ac.in/aboutgeology.php">Department of Applied Geology</a></u></h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Our vision is to promote the sustainable development and conservation of mineral and natural resources and we aim to promote Human Resource Development (HRD) in achieving goals of sustainable development and conservation of mineral and natural resources. 
+            </p>
+           
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <h3><u><a href="http://www.nitrr.ac.in/aboutit.php">Department of Information Technology</a></u></h3>
+            
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Established in the year 2000, Information Technology Department is the study, research and work place of 300 people from 28 states across India. About 15 professors in this department teach mainly in areas like Information Science & Technology, Computer Science & engineering, system-oriented sciences, and mathematics, etc., carry out research in their respective fields. 
+            </p>
+           
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <h3><u><a href="http://www.nitrr.ac.in/aboutit.php">Department of Bio Medical Engineering</a></u></h3>
+            
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Our vision is to provide society with world-class competitive professional in Biomedical Engineering by making the Department as the best through its faculty and graduates, which is a driving force in creating engineering knowledge and novel Biomedical Technology that improve the human condition through advancement of health care and Biomedical Sciences, among the top most (top-5) in India. 
+            </p>
+           
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <!-- ======= Team Section ======= 
     <section id="team" class="team section-bg">

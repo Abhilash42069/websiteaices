@@ -5,14 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sailor Bootstrap Template - Index</title>
+  <title>AICES 2022</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -36,40 +37,155 @@
   ======================================================== -->
 </head>
 
+<style>
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color : transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block-1 {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  background-color : transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+.text-block-2 {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  background-color : transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 50px;
+  padding-right: 10px;
+}
+.text-block-3 {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  background-color : transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.img-1{
+  border: 1px transparent #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 70px;
+}
+.img-2{
+  border: 1px transparent #ddd;
+  border-radius: 5%;
+  padding: 5px;
+  width: 100px;
+}
+</style>
+<style>
+  .card {
+    flex-direction: row;
+    align-items: center;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .card img {
+    width: 30%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+  @media only screen and (max-width: 768px) {
+    a {
+      display: none;
+    }
+    .card-body {
+      padding: 0.5em 1.2em;
+    }
+    .card-body .card-text {
+      margin: 0;
+    }
+    .card img {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .card img {
+      width: 40%;
+    }
+  }
+  body {
+    background: url('https://www.teahub.io/photos/full/40-402760_light-color-background-for-website.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  </style>
 <body>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-
+      <h1 class="logo me-3"><a href="http://nitrr.ac.in/"><img src = "https://pbs.twimg.com/profile_images/986171794183766016/xMptjXZe_400x400.jpg"></a></h1>
       <h1 class="logo me-auto"><a href="index.html">AICES</a></h1>
+      
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" >Home</a></li>
+          <li><a href="index.html">Home</a></li>
 
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="about.html">About</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="team.html" >Organizing Committee</a></li>
+              <li><a href="adv.html" >Advisory & Technical Committee</a></li>
+              <li><a href="intadv.html" >Internal Advisory & Technical Committee</a></li>
+              <li><a href="external.html">External Advisors</a></li>
+              <li><a href="chair.html">Technical Program Chair (Internal)</a></li>
+              <li><a href="studentchair.html">Student Chair</a></li>
 
              
-               
+            </ul>
+          </li>
+          </li> 
+          <li class="dropdown"><a href="#"><span>Call for Papers</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="services.html">Tracks and Topics</a></li>
+              <li><a href="guide.html">Guidelines For Paper Submission</a></li>
+              <li><a href="pricing.html">Registration</a></li>
+              <li><a href="portfolio.html">Important Dates</a></li>               
               </li>
             </ul>
-          </li> 
-          <li><a href="services.html">Call for Papers</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-
+          </li>
+          <li class="dropdown"><a href="#"><span>Speakers</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="keynote.html">Keynote Speakers</a></li>
+              <li><a href="guestlectures.html">Guest Lectures</a></li>
+              <li><a href="daywisedetails.html">Daywise events</a></li>               
+              </li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Important Dates</a></li>
+          <li><a href="sponsor.html">Sponsors</a></li>
+          <li><a href="award.html">Awards</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="index.html" class="getstarted">Get Started</a></li>
+          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
+      </div>
+      </header><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
@@ -83,11 +199,23 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-5.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AICES</span></h2>
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AICES 2022</span></h2>
               <p class="animate__animated animate__fadeInUp">The conference aims to provide a forum for researchers, practitioners and professionals from the industry and the academia to share their research trends, findings, and results in the multidisciplinary field of intelligent computing.</p>
+              <div class="text-block">
+                <i class="fa fa-calendar bottom-left animate__animated animate__fadeInUp" style="font-size:48px;color : white"></i>
+              </div>
+              <div class="text-block-1">
+                <h5 class= "animate__animated animate__fadeInUp"> 8 / 1 / 2022</h5>
+              </div>
+              <div class = "text-block-2">
+                 <img class = "img-1 animate__animated animate__fadeInUp" src = "http://nitrr.ac.in/images/nitrr.gif">
+              </div>
+              <div class = "text-block-3">
+                 <img class = "img-2 animate__animated animate__fadeInUp" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwlT8itEbjnaNadGPWN0TJL3oBqGCCfa3rUEOjG1pKFgPGvjXY8idRDnA1ei7TkdF5aJU&usqp=CAU">
+              </div>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -97,24 +225,50 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AICES</span></h2>
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AICES 2022</span></h2>
               <p class="animate__animated animate__fadeInUp">The conference aims to provide a forum for researchers, practitioners and professionals from the industry and the academia to share their research trends, findings, and results in the multidisciplinary field of intelligent computing.</p>
+              <div class="text-block">
+                <i class="fa fa-calendar bottom-left animate__animated animate__fadeInUp" style="font-size:48px;color : white"></i>
+              </div>
+              <div class="text-block-1">
+                <h5 class= "animate__animated animate__fadeInUp"> 8 / 1 / 2022</h5>
+              </div>
+              <div class = "text-block-2">
+                 <img class = "img-1 animate__animated animate__fadeInUp" src = "http://nitrr.ac.in/images/nitrr.gif">
+              </div>
+              <div class = "text-block-3">
+                 <img class = "img-2 animate__animated animate__fadeInUp" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwlT8itEbjnaNadGPWN0TJL3oBqGCCfa3rUEOjG1pKFgPGvjXY8idRDnA1ei7TkdF5aJU&usqp=CAU">
+              </div>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-8.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AICES</span></h2>
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AICES 2022</span></h2>
               <p class="animate__animated animate__fadeInUp">The conference aims to provide a forum for researchers, practitioners and professionals from the industry and the academia to share their research trends, findings, and results in the multidisciplinary field of intelligent computing.</p>
+              <div class="text-block">
+                <i class="fa fa-calendar bottom-left animate__animated animate__fadeInUp" style="font-size:48px;color : white"></i>
+              </div>
+              <div class="text-block-1">
+                <h5 class= "animate__animated animate__fadeInUp"> 8 / 1 / 2022</h5>
+              </div>
+              <div class = "text-block-2">
+                 <img class = "img-1 animate__animated animate__fadeInUp" src = "http://nitrr.ac.in/images/nitrr.gif">
+              </div>
+              <div class = "text-block-3">
+                 <img class = "img-2 animate__animated animate__fadeInUp" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwlT8itEbjnaNadGPWN0TJL3oBqGCCfa3rUEOjG1pKFgPGvjXY8idRDnA1ei7TkdF5aJU&usqp=CAU">
+              </div>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
         </div>
-
+        <!--Slide 4-->
+        
+       
       </div>
 
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
@@ -130,26 +284,138 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
+    <!-- ======= About Section ======= --> 
     <section id="about" class="about">
       <div class="container">
 
         <div class="row content">
           <div class="col-lg-6">
-            <h2>About</h2>
+            <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h2>
             <h3>AICES 2022</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
+            <h4>
               The conference aims to provide a forum for researchers, practitioners and professionals from the industry and the academia to share their research trends, findings, and results in the multidisciplinary field of intelligent computing. Various applications of intelligent computing in earth and environment science, biomedical engineering, and information technology will be covered. Topics like geospatial analysis, weather and climate forecasting, biomedical imaging and signal processing, internet of things, machine learning and deep learning applications, biomedical instrumentation, medical imaging physics etc. are in the scope of conference. The Conference will highlight diverse perspectives to interested geologists, meteorologists, biomedical engineers, software engineers and computer professionals, medical professionals, biotechnologists, pharmaceutical experts, sustainability researchers etc. and will also provide a platform for potential knowledge exchange on recent trends, theories and practices in the field of intelligent computing. Intelligent computing is one of the emerging fields that can add new and better application in a wide range of sectors like healthcare, service sector, and processing industry to name some. The conference will discuss advancements that will enable the researchers to develop improved approaches for solving science and engineering problems.
-            </p>
+            </h4>
             
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
-
+    <!-- <section>
+      <div class="w3-container w3-padding-32" id="about">
+      <h2 class="w3-border-bottom w3-border-dark-grey w3-padding-16"><center>About</center></h2>
+      <style>
+        .nig {
+  width: 1200px;
+  padding: 10px;
+  border: 3px ridge rgb(194, 161, 161);
+  margin: auto;
+}
+       </style>
+       
+       <body>
+       
+       <div class="nig"><h4>
+        The conference aims to provide a forum for researchers, practitioners and professionals from the industry and the academia to share their research trends, findings, and results in the multidisciplinary field of intelligent computing.<br> Various applications of intelligent computing in earth and environment science, biomedical engineering, and information technology will be covered.<br> Topics like geospatial analysis, weather and climate forecasting, biomedical imaging and signal processing, internet of things, machine learning and deep learning applications, biomedical instrumentation, medical imaging physics etc. are in the scope of conference.<br> The Conference will highlight diverse perspectives to interested geologists, meteorologists, biomedical engineers, software engineers and computer professionals, medical professionals, biotechnologists, pharmaceutical experts, sustainability researchers etc. and will also provide a platform for potential knowledge exchange on recent trends, theories and practices in the field of intelligent computing.<br> Intelligent computing is one of the emerging fields that can add new and better application in a wide range of sectors like healthcare, service sector, and processing industry to name some. The conference will discuss advancements that will enable the researchers to develop improved approaches for solving science and engineering problems.
+       </h4></div>
+       
+       </body>
+    </div>
+   </section>
+    <!--Speakers-->
+    <section>
+      <div class="w3-container w3-padding-32" id="about">
+      <h2 class="w3-border-bottom w3-border-dark-grey w3-padding-16"><center>Call for papers</center></h2>
+      <style>
+        .nig {
+  width: 1200px;
+  padding: 10px;
+  border: 1px ridge rgb(126, 102, 102);
+  margin: auto;
+}
+       </style>
+       
+       <body>
+        <section id="features" class="features">
+          <div class="container">
+              <h5>Research articles are invited in the following areas of interest, but not limited to:</h5>
+              <div class="card container">
+                <img src="https://static.scientificamerican.com/sciam/cache/file/4593CEFD-A536-4E40-A310EE023E36BA08_source.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Track-I</h5>
+                  <p class="card-text">
+                    <h3>Intelligent computing in earth and environmental sciences</h3>
+                    <p>
+                      <ul>
+                        <li>Geospatial analysis</li>
+                        <li>Environment</li>
+                        <li>Weather and climate forecasting</li>
+                        <li>Atmospheric science</li>
+                        <li>Natural hazards</li> 
+                        <li>Medical Geology</li>
+                        <li>Mineral prospecting and exploration</li>
+                        <li>Hydrogeology</li>
+                      </ul>
+                    </p>
+                  </p>
+                 
+                </div>
+              </div>
+              <br>
+              <div class="card container">
+                <img src="https://www.actian.com/wp-content/uploads/2019/08/ZEN5-A.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Track-II</h5>
+                  <p class="card-text">
+                    <h4>Computing Technology</h4>
+                    <p>
+                      <ul>
+                        <li>Big Data/ Data Mining/ Text Mining/ Time series Mining /Data Informatics</li>
+                        <li>Image Processing/Pattern Recognition/Multimedia</li>
+                        <li>Geographical Information Systems</li>
+                        <li>Machine Learning / Machine Intelligence / Artificial Intelligence</li>
+                        <li>Soft Computing (AI, Neural Networks, Fuzzy)</li>
+                        <li>Internet of Things</li>
+                      </ul>
+                      </p>
+                  </p>
+                  
+                </div>
+              </div>
+          <br>
+              <div class="card container">
+                <img src="https://www.bolton.ac.uk//assets/Uploads/Biomedical-picture.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Track-III</h5>
+                  <p class="card-text">
+                    <h3>Intelligent computing in Biomedical Engineering</h3>    
+                    <p>
+                      <ul>
+                        <li>nCOVID-19 research</li>
+                        <li>Health informatics</li>
+                        <li>Biomedical Signal Processing</li>
+                        <li>Medical Image Processing</li>
+                        <li>Biomedical Instrumentation</li>
+                        <li>Non-Invasive Techniques</li>
+                        <li>Medical Imaging Physics</li>
+                        <li>AI & Machine learning in health</li>
+                        <li>Cognitive Science/Engineering</li>
+                        <li>Brain Computer Interfaces</li>
+                      </ul>
+                    </p>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+             
+            </section> 
+            </body>
+            </div>
+            </section>
+            
     <!-- ======= Clients Section ======= 
     <section id="clients" class="clients section-bg">
       <div class="container">
